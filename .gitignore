@@ -1,0 +1,39 @@
+# Modelos de inteligencia artificial
+models/
+*.gguf
+
+# Memoria privada
+memoria.json
+memoria.json.tmp
+
+# Proyectos y archivos de usuario
+workspace/
+
+# Datos privados
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+
+# Copias y temporales
+*.backup
+*.bak
+*.log
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Git
+.git/
+
+# Versiones antiguas y archivos locales
+dany.py
+dany.sh
+dany_dev.py
+dany_dev_v2_seguro.py
+developer.py
